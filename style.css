@@ -1,0 +1,69 @@
+
+/* Universal selector or css reset */ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'montserrat', sans-serif; 
+}
+img{
+    max-width: 100%;
+}
+/* ************************************** */
+/* header styling */
+/* ************************************** */
+.header-wrapper{
+    background-color: black;
+    font-weight: 200;
+    font-size: 0.75em;
+    width: 100%;
+}
+.header-wrapper ul{
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    justify-content: space-between;
+    list-style: none;
+}
+.internal-wrapper{
+    width: 980px;
+    padding: 10px 10px;
+    margin: 0 auto; 
+    
+}
+.internal-wrapper a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.8;
+}
+.internal-wrapper a:hover{
+    opacity: 1;
+}
+.logo-link, .search-link, .cart-link
+img{
+    width: 18px; 
+    
+}
+
+  .macbook-wrapper{
+    background: #fafafa;
+    padding: 25px 0;
+    text-align: center;
+}
+.model-wrapper{
+    
+    margin-top: 20px;
+    font-size: 0.85em;
+}
+.product-title{
+    
+    margin-top: 10px;
+    font-size: 40px;
+    
+}
+.device-description{
+    
+    font-size: 2.5em;
+    font-weight: 400;
+    /* padding-bottom: 10px; */
+}
