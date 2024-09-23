@@ -1,4 +1,5 @@
-Universal selector or css reset */
+
+/* Universal selector or css reset */ 
 *{
     padding: 0;
     margin: 0;
@@ -42,4 +43,27 @@ img{
 img{
     width: 18px; 
     
+}
+
+  .macbook-wrapper{
+    background: #fafafa;
+    padding: 25px 0;
+    text-align: center;
+}
+.model-wrapper{
+    
+    margin-top: 20px;
+    font-size: 0.85em;
+}
+.product-title{
+    
+    margin-top: 10px;
+    font-size: 40px;
+    
+}
+.device-description{
+    
+    font-size: 2.5em;
+    font-weight: 400;
+    /* padding-bottom: 10px; */
 }
